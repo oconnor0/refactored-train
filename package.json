@@ -1,0 +1,27 @@
+{
+	"name": "refactored-train",
+	"version": "1.0.0",
+	"description": "Because GitHub Actions are a pain to debug.",
+	"main": "index.js",
+	"scripts": {
+		"build": "ncc build src/index.js -o dist"
+	},
+	"dependencies": {
+		"@actions/core": "^1.10.0",
+		"@actions/github": "^5.1.1",
+		"@actions/http-client": "^2.0.1"
+	},
+	"devDependencies": {
+		"@vercel/ncc": "^0.34.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oconnor0/refactored-train.git"
+	},
+	"author": "",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/oconnor0/refactored-train/issues"
+	},
+	"homepage": "https://github.com/oconnor0/refactored-train#readme"
+}

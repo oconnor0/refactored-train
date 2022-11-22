@@ -1,0 +1,9 @@
+name: 'Refactored Train'
+description: 'Because GitHub Actions are a pain to debug.'
+inputs:
+  GITHUB_TOKEN:
+    description: 'To say something.'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

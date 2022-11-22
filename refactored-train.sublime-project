@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build",
+			"working_dir": "${project_path:${folder}}",
+			"shell_cmd": "npm run build",
+		},
+	],
+}
